@@ -3,7 +3,8 @@
 require 'aluno.php';
 require 'alunoUniversitario.php';
 
-$aluno = new Aluno([5,10,4,6]);
+$notasAnna = [5,10,4,6];
+$aluno = new Aluno($notasAnna);
 $aluno->setNome("Anna Raio");
 $aluno->setIdade(4);
 
